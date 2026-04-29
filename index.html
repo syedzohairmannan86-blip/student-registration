@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<div id="step1" class="step active">
+<h2>Select Activity</h2>
+<div class="card" onclick="next(1)">Debate</div>
+<div class="card" onclick="next(1)">Music</div>
+</div>
+
+<div id="step2" class="step">
+<h2>Select Level</h2>
+<div class="card" onclick="next(2)">Level 1</div>
+<div class="card" onclick="next(2)">Level 2</div>
+</div>
+
+<div id="step3" class="step">
+<h2>Fill Details</h2>
+<input placeholder="Name">
+<input placeholder="Class">
+<button onclick="submitForm()">Submit</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
